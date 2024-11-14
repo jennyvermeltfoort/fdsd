@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : my_register_4bit.vhf
--- /___/   /\     Timestamp : 11/13/2024 16:35:25
+-- /___/   /\     Timestamp : 11/14/2024 15:19:41
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family virtex6 -flat -suppress -vhdl /vol/home/s3787494/FDSD/Task_1/my_register_4bit.vhf -w /vol/home/s3787494/FDSD/Task_1/my_register_4bit.sch
+--Command: sch2hdl -intstyle ise -family virtex6 -flat -suppress -vhdl /vol/home/s3787494/projects/fdsd/Task_1/my_register_4bit.vhf -w /vol/home/s3787494/projects/fdsd/Task_1/my_register_4bit.sch
 --Design Name: my_register_4bit
 --Device: virtex6
 --Purpose:
