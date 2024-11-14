@@ -1,0 +1,37 @@
+Running: /vol/share/software/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /vol/home/s3787494/projects/fdsd/Task_2/my_alu_my_alu_sch_tb_isim_beh.exe -prj /vol/home/s3787494/projects/fdsd/Task_2/my_alu_my_alu_sch_tb_beh.prj work.my_alu_my_alu_sch_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 28
+Turning on mult-threading, number of parallel sub-compilation jobs: 56 
+Determining compilation order of HDL files
+Parsing VHDL file "/vol/home/s3787494/projects/fdsd/Task_2/my_mux4_4to1.vhf" into library work
+Parsing VHDL file "/vol/home/s3787494/projects/fdsd/Task_2/my_alu.vhf" into library work
+Parsing VHDL file "/vol/home/s3787494/projects/fdsd/Task_2/my_alu_test.vhd" into library work
+Parsing VHDL file "/vol/home/s3787494/projects/fdsd/Task_2/my_inv4_en.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 101864 KB
+Fuse CPU Usage: 730 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity BRLSHFT4_HXILINX_my_alu [brlshft4_hxilinx_my_alu_default]
+Compiling architecture add4_hxilinx_my_alu_v of entity ADD4_HXILINX_my_alu [add4_hxilinx_my_alu_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture inv4_hxilinx_my_alu_v of entity INV4_HXILINX_my_alu [inv4_hxilinx_my_alu_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture m4_1e_hxilinx_my_alu_v of entity M4_1E_HXILINX_my_alu [m4_1e_hxilinx_my_alu_default]
+Compiling architecture behavioral of entity my_mux4_4to1_MUSER_my_alu [my_mux4_4to1_muser_my_alu_defaul...]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture nor2_v of entity NOR2 [nor2_default]
+Compiling architecture behavioral of entity my_alu [my_alu_default]
+Compiling architecture behavioral of entity my_alu_my_alu_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 27 VHDL Units
+Built simulation executable /vol/home/s3787494/projects/fdsd/Task_2/my_alu_my_alu_sch_tb_isim_beh.exe
+Fuse Memory Usage: 3824672 KB
+Fuse CPU Usage: 810 ms
+GCC CPU Usage: 250 ms

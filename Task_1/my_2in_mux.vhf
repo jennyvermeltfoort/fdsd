@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : my_2in_mux.vhf
--- /___/   /\     Timestamp : 11/13/2024 15:45:36
+-- /___/   /\     Timestamp : 11/14/2024 15:19:41
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family virtex6 -flat -suppress -vhdl /vol/home/s3787494/FDSD/Task_1/my_2in_mux.vhf -w /vol/home/s3787494/FDSD/Task_1/my_2in_mux.sch
+--Command: sch2hdl -intstyle ise -family virtex6 -flat -suppress -vhdl /vol/home/s3787494/projects/fdsd/Task_1/my_2in_mux.vhf -w /vol/home/s3787494/projects/fdsd/Task_1/my_2in_mux.sch
 --Design Name: my_2in_mux
 --Device: virtex6
 --Purpose:

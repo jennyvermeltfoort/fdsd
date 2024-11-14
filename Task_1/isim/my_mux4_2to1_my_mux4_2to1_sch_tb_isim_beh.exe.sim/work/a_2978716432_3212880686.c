@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/vol/home/s3787494/FDSD/Task_1/my_mux4_2to1_test.vhd";
+static const char *ng0 = "/vol/home/s3787494/projects/fdsd/Task_1/my_mux4_2to1_test.vhd";
 
 
 
@@ -54,7 +54,7 @@ LAB0:    t1 = (t0 + 2664U);
 LAB3:    goto *t2;
 
 LAB2:    xsi_set_current_line(48, ng0);
-    t2 = (t0 + 5029);
+    t2 = (t0 + 5101);
     t4 = (t0 + 3048);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -63,7 +63,7 @@ LAB2:    xsi_set_current_line(48, ng0);
     memcpy(t8, t2, 4U);
     xsi_driver_first_trans_fast(t4);
     xsi_set_current_line(49, ng0);
-    t2 = (t0 + 5033);
+    t2 = (t0 + 5105);
     t4 = (t0 + 3112);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);

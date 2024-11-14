@@ -59,14 +59,15 @@ BEGIN
 
    tb : PROCESS
    BEGIN
-		LOAD <= '1',
-			'0' after 30 ns,
-			'1' after 60 ns,
-			'0' after 90 ns;
+		LOAD <= '0',
+			'1' after 30 ns,
+			'0' after 60 ns,
+			'1' after 90 ns,
+			'0' after 120 ns;
 		D <= "0101", 
-			"1010" after 60 ns;
+			"1010" after 90 ns;
 		RST <= '0',
-			'1' after 125 ns;
+			'1' after 165 ns;
 		
       WAIT; -- will wait forever
    END PROCESS;

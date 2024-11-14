@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/vol/home/s3787494/FDSD/Task_1/my_register_4bit_test.vhd";
+static const char *ng0 = "/vol/home/s3787494/projects/fdsd/Task_1/my_register_4bit_test.vhd";
 
 
 
@@ -48,9 +48,9 @@ LAB0:    t1 = (t0 + 2824U);
 LAB3:    goto *t2;
 
 LAB2:    xsi_set_current_line(51, ng0);
-    t2 = (t0 + 5683);
+    t2 = (t0 + 5779);
     *((int *)t2) = 1;
-    t3 = (t0 + 5687);
+    t3 = (t0 + 5783);
     *((int *)t3) = 40;
     t4 = 1;
     t5 = 40;
@@ -79,16 +79,16 @@ LAB5:    xsi_set_current_line(52, ng0);
 LAB10:    *((char **)t1) = &&LAB11;
     goto LAB1;
 
-LAB6:    t2 = (t0 + 5683);
+LAB6:    t2 = (t0 + 5779);
     t4 = *((int *)t2);
-    t3 = (t0 + 5687);
+    t3 = (t0 + 5783);
     t5 = *((int *)t3);
     if (t4 == t5)
         goto LAB7;
 
 LAB16:    t12 = (t4 + 1);
     t4 = t12;
-    t6 = (t0 + 5683);
+    t6 = (t0 + 5779);
     *((int *)t6) = t4;
     goto LAB4;
 
@@ -152,6 +152,12 @@ static void work_a_1059435670_3212880686_p_1(char *t0)
     char *t22;
     char *t23;
     char *t24;
+    int64 t25;
+    char *t26;
+    char *t27;
+    char *t28;
+    char *t29;
+    char *t30;
 
 LAB0:    t1 = (t0 + 3072U);
     t2 = *((char **)t1);
@@ -166,7 +172,7 @@ LAB2:    xsi_set_current_line(62, ng0);
     t4 = *((char **)t3);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
-    *((unsigned char *)t6) = (unsigned char)3;
+    *((unsigned char *)t6) = (unsigned char)2;
     xsi_driver_first_trans_delta(t2, 0U, 1, 0LL);
     t7 = (30 * 1000LL);
     t8 = (t0 + 3520);
@@ -174,7 +180,7 @@ LAB2:    xsi_set_current_line(62, ng0);
     t10 = *((char **)t9);
     t11 = (t10 + 56U);
     t12 = *((char **)t11);
-    *((unsigned char *)t12) = (unsigned char)2;
+    *((unsigned char *)t12) = (unsigned char)3;
     xsi_driver_subsequent_trans_delta(t8, 0U, 1, t7);
     t13 = (60 * 1000LL);
     t14 = (t0 + 3520);
@@ -182,7 +188,7 @@ LAB2:    xsi_set_current_line(62, ng0);
     t16 = *((char **)t15);
     t17 = (t16 + 56U);
     t18 = *((char **)t17);
-    *((unsigned char *)t18) = (unsigned char)3;
+    *((unsigned char *)t18) = (unsigned char)2;
     xsi_driver_subsequent_trans_delta(t14, 0U, 1, t13);
     t19 = (90 * 1000LL);
     t20 = (t0 + 3520);
@@ -190,10 +196,18 @@ LAB2:    xsi_set_current_line(62, ng0);
     t22 = *((char **)t21);
     t23 = (t22 + 56U);
     t24 = *((char **)t23);
-    *((unsigned char *)t24) = (unsigned char)2;
+    *((unsigned char *)t24) = (unsigned char)3;
     xsi_driver_subsequent_trans_delta(t20, 0U, 1, t19);
-    xsi_set_current_line(66, ng0);
-    t2 = (t0 + 5691);
+    t25 = (120 * 1000LL);
+    t26 = (t0 + 3520);
+    t27 = (t26 + 56U);
+    t28 = *((char **)t27);
+    t29 = (t28 + 56U);
+    t30 = *((char **)t29);
+    *((unsigned char *)t30) = (unsigned char)2;
+    xsi_driver_subsequent_trans_delta(t26, 0U, 1, t25);
+    xsi_set_current_line(67, ng0);
+    t2 = (t0 + 5787);
     t4 = (t0 + 3584);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -201,8 +215,8 @@ LAB2:    xsi_set_current_line(62, ng0);
     t9 = *((char **)t8);
     memcpy(t9, t2, 4U);
     xsi_driver_first_trans_delta(t4, 0U, 4U, 0LL);
-    t7 = (60 * 1000LL);
-    t10 = (t0 + 5695);
+    t7 = (90 * 1000LL);
+    t10 = (t0 + 5791);
     t12 = (t0 + 3584);
     t14 = (t12 + 56U);
     t15 = *((char **)t14);
@@ -210,7 +224,7 @@ LAB2:    xsi_set_current_line(62, ng0);
     t17 = *((char **)t16);
     memcpy(t17, t10, 4U);
     xsi_driver_subsequent_trans_delta(t12, 0U, 4U, t7);
-    xsi_set_current_line(68, ng0);
+    xsi_set_current_line(69, ng0);
     t2 = (t0 + 3648);
     t3 = (t2 + 56U);
     t4 = *((char **)t3);
@@ -218,7 +232,7 @@ LAB2:    xsi_set_current_line(62, ng0);
     t6 = *((char **)t5);
     *((unsigned char *)t6) = (unsigned char)2;
     xsi_driver_first_trans_delta(t2, 0U, 1, 0LL);
-    t7 = (125 * 1000LL);
+    t7 = (165 * 1000LL);
     t8 = (t0 + 3648);
     t9 = (t8 + 56U);
     t10 = *((char **)t9);
@@ -226,7 +240,7 @@ LAB2:    xsi_set_current_line(62, ng0);
     t12 = *((char **)t11);
     *((unsigned char *)t12) = (unsigned char)3;
     xsi_driver_subsequent_trans_delta(t8, 0U, 1, t7);
-    xsi_set_current_line(71, ng0);
+    xsi_set_current_line(72, ng0);
 
 LAB6:    *((char **)t1) = &&LAB7;
 
