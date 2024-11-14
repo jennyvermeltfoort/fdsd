@@ -1,0 +1,30 @@
+Running: /vol/share/software/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /vol/home/s3787494/FDSD/Task_1/my_register_4bit_my_register_4bit_sch_tb_isim_beh.exe -prj /vol/home/s3787494/FDSD/Task_1/my_register_4bit_my_register_4bit_sch_tb_beh.prj work.my_register_4bit_my_register_4bit_sch_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 28
+Turning on mult-threading, number of parallel sub-compilation jobs: 56 
+Determining compilation order of HDL files
+Parsing VHDL file "/vol/home/s3787494/FDSD/Task_1/my_2in_mux.vhf" into library work
+Parsing VHDL file "/vol/home/s3787494/FDSD/Task_1/my_register_4bit.vhf" into library work
+Parsing VHDL file "/vol/home/s3787494/FDSD/Task_1/my_register_4bit_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 100636 KB
+Fuse CPU Usage: 720 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture fdc_v of entity FDC [\FDC('0')\]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture behavioral of entity my_2in_mux_MUSER_my_register_4bit [my_2in_mux_muser_my_register_4bi...]
+Compiling architecture behavioral of entity my_register_4bit [my_register_4bit_default]
+Compiling architecture behavioral of entity my_register_4bit_my_register_4bi...
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Built simulation executable /vol/home/s3787494/FDSD/Task_1/my_register_4bit_my_register_4bit_sch_tb_isim_beh.exe
+Fuse Memory Usage: 3819388 KB
+Fuse CPU Usage: 800 ms
+GCC CPU Usage: 320 ms
