@@ -1,0 +1,5 @@
+MODULE my_full_addr
+	SUBMODULE my_half_addr_en
+		INSTANCE XLXI_13
+	SUBMODULE my_half_addr_en
+		INSTANCE XLXI_14
