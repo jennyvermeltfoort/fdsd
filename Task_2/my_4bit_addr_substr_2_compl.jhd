@@ -1,9 +1,0 @@
-MODULE my_4bit_addr_substr_2_compl
-	SUBMODULE my_full_addr_en
-		INSTANCE XLXI_19
-	SUBMODULE my_full_addr_en
-		INSTANCE XLXI_20
-	SUBMODULE my_full_addr_en
-		INSTANCE XLXI_21
-	SUBMODULE my_full_addr_en
-		INSTANCE XLXI_22
