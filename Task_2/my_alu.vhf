@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : my_alu.vhf
--- /___/   /\     Timestamp : 11/25/2024 13:55:41
+-- /___/   /\     Timestamp : 11/25/2024 14:20:21
 -- \   \  /  \ 
 --  \___\/\___\ 
 --

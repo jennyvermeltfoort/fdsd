@@ -6,11 +6,12 @@ Determining compilation order of HDL files
 Parsing VHDL file "/vol/home/s3787494/projects/fdsd/Task_2/my_mux4_4to1.vhf" into library work
 Parsing VHDL file "/vol/home/s3787494/projects/fdsd/Task_2/my_alu.vhf" into library work
 Parsing VHDL file "/vol/home/s3787494/projects/fdsd/Task_2/my_alu_test.vhd" into library work
+Parsing VHDL file "/vol/home/s3787494/projects/fdsd/Task_2/mux4_3to1.vhf" into library work
 Parsing VHDL file "/vol/home/s3787494/projects/fdsd/Task_2/my_inv4_en.vhf" into library work
 Starting static elaboration
 Completed static elaboration
 Fuse Memory Usage: 101864 KB
-Fuse CPU Usage: 730 ms
+Fuse CPU Usage: 700 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
@@ -29,9 +30,8 @@ Compiling architecture nor2_v of entity NOR2 [nor2_default]
 Compiling architecture behavioral of entity my_alu [my_alu_default]
 Compiling architecture behavioral of entity my_alu_my_alu_sch_tb
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 27 VHDL Units
 Built simulation executable /vol/home/s3787494/projects/fdsd/Task_2/my_alu_my_alu_sch_tb_isim_beh.exe
-Fuse Memory Usage: 3824672 KB
-Fuse CPU Usage: 810 ms
-GCC CPU Usage: 250 ms
+Fuse Memory Usage: 3824720 KB
+Fuse CPU Usage: 790 ms
+GCC CPU Usage: 280 ms

@@ -33,4 +33,3 @@ at 0 ps, Instance /my_alu_my_alu_sch_tb/UUT/XLXI_11/ : Warning: CONV_INTEGER: Th
 at 0 ps, Instance /my_alu_my_alu_sch_tb/UUT/XLXI_11/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
 # exit 0
-# exit 0

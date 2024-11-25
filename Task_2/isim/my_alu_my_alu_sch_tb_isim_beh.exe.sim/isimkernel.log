@@ -2,12 +2,12 @@ Command line:
    my_alu_my_alu_sch_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  43957
+     -socket  41751
 
-Mon Nov 25 13:55:47 2024
+Mon Nov 25 14:28:02 2024
 
 
- Elaboration Time: 0.01 sec
+ Elaboration Time: 0.02 sec
 
  Current Memory Usage: 184.156 Meg
 
@@ -21,9 +21,9 @@ Mon Nov 25 13:55:47 2024
  Total Scalar Nets and Variables : 565
 Total Line Count : 72
 
- Total Simulation Time: 0.01 sec
+ Total Simulation Time: 0.02 sec
 
  Current Memory Usage: 259.658 Meg
 
-Mon Nov 25 13:56:09 2024
+Mon Nov 25 14:28:06 2024
 

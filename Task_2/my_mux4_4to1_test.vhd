@@ -62,8 +62,9 @@ BEGIN
 		B <= "0101";
 		C <= "1100";
 		D <= "0011";
-		s0 <= '0', '1' after 50 ns, '0' after 100 ns, '1' after 150 ns;
-		s1 <= '0', '1' after 100 ns;
+		S0 <= '0', '1' after 50 ns, '0' after 100 ns, '1' after 150 ns;
+		S1 <= '0', '1' after 100 ns;
+		EN <= '1', '0' after 200 ns;
       WAIT; -- will wait forever
    END PROCESS;
 -- *** End Test Bench - User Defined Section ***
