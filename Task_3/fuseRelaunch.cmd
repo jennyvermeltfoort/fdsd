@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/jenn/fdsd/Task_3/my_rom_16_7_test_isim_beh.exe" -prj "/home/jenn/fdsd/Task_3/my_rom_16_7_test_beh.prj" "work.my_rom_16_7_test" 
