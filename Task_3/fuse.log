@@ -8,15 +8,16 @@ Parsing VHDL file "/home/jenn/fdsd/Task_3/my_rom_16_7_test.vhd" into library wor
 Starting static elaboration
 Completed static elaboration
 Fuse Memory Usage: 84796 KB
-Fuse CPU Usage: 450 ms
+Fuse CPU Usage: 440 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
-Compiling architecture behavioral of entity my_rom_16_7 [my_rom_16_7_default]
+Compiling architecture behavioral of entity my_rom_16_7 [\my_rom_16_7(('0','0','0','0','0...]
 Compiling architecture behavior of entity my_rom_16_7_test
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 6 VHDL Units
 Built simulation executable /home/jenn/fdsd/Task_3/my_rom_16_7_test_isim_beh.exe
-Fuse Memory Usage: 1704932 KB
-Fuse CPU Usage: 500 ms
+Fuse Memory Usage: 1705004 KB
+Fuse CPU Usage: 510 ms
 GCC CPU Usage: 130 ms

@@ -36,6 +36,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="my_rom.xst"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="my_rom_16_7.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my_rom_16_7.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="my_rom_16_7_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="my_rom_16_7_test_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="my_rom_16_7_test_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="my_rom_16_7_test_isim_beh.wdb"/>
@@ -59,17 +60,17 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1732627905" xil_pn:in_ck="-478946834806581283" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1732627905">
+    <transform xil_pn:end_ts="1732630436" xil_pn:in_ck="-478946834806581283" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1732630436">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="my_rom_16_7.vhd"/>
       <outfile xil_pn:name="my_rom_16_7_test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1732627582" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1824221857393876573" xil_pn:start_ts="1732627582">
+    <transform xil_pn:end_ts="1732630255" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1824221857393876573" xil_pn:start_ts="1732630255">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1732627583" xil_pn:in_ck="-5306146406254918840" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4526214053029831571" xil_pn:start_ts="1732627582">
+    <transform xil_pn:end_ts="1732630255" xil_pn:in_ck="-5306146406254918840" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4526214053029831571" xil_pn:start_ts="1732630255">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -77,16 +78,15 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1732627909" xil_pn:in_ck="-478946834806581283" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1732627909">
+    <transform xil_pn:end_ts="1732630437" xil_pn:in_ck="-478946834806581283" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1732630437">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="my_rom_16_7.vhd"/>
       <outfile xil_pn:name="my_rom_16_7_test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1732627910" xil_pn:in_ck="-478946834806581283" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8820861754700513302" xil_pn:start_ts="1732627909">
+    <transform xil_pn:end_ts="1732630438" xil_pn:in_ck="-478946834806581283" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8820861754700513302" xil_pn:start_ts="1732630437">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -96,16 +96,14 @@
       <outfile xil_pn:name="my_rom_16_7_test_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1732627910" xil_pn:in_ck="-5060947291067763942" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3421632057658302473" xil_pn:start_ts="1732627910">
+    <transform xil_pn:end_ts="1732630438" xil_pn:in_ck="-249859019689772387" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3421632057658302473" xil_pn:start_ts="1732630438">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="my_rom_16_7_test_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1732627052" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1732627052">
       <status xil_pn:value="SuccessfullyRun"/>
