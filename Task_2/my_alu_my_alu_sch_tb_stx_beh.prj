@@ -1,4 +1,0 @@
-vhdl isim_temp "my_mux4_4to1.vhf"
-vhdl isim_temp "my_alu.vhf"
-vhdl isim_temp "my_alu_test.vhd"
-vhdl isim_temp "my_inv4_en.vhf"

@@ -23,36 +23,27 @@ ARCHITECTURE behavioral OF my_alu_my_alu_sch_tb IS
 
    COMPONENT my_alu
    PORT( S0	:	IN	STD_LOGIC; 
-          COMP	:	INOUT	STD_LOGIC_VECTOR (3 DOWNTO 0); 
           B	:	IN	STD_LOGIC_VECTOR (3 DOWNTO 0); 
           A	:	IN	STD_LOGIC_VECTOR (3 DOWNTO 0); 
           RES	:	OUT	STD_LOGIC_VECTOR (3 DOWNTO 0); 
-          ADD	:	INOUT	STD_LOGIC_VECTOR (3 DOWNTO 0); 
-          SFT	:	INOUT	STD_LOGIC_VECTOR (3 DOWNTO 0); 
           S1	:	IN	STD_LOGIC; 
           CO	:	OUT	STD_LOGIC);
    END COMPONENT;
 
    SIGNAL S0	:	STD_LOGIC;
-   SIGNAL COMP	:	STD_LOGIC_VECTOR (3 DOWNTO 0);
+	SIGNAL S1	:	STD_LOGIC;
    SIGNAL B	:	STD_LOGIC_VECTOR (3 DOWNTO 0);
    SIGNAL A	:	STD_LOGIC_VECTOR (3 DOWNTO 0);
    SIGNAL RES	:	STD_LOGIC_VECTOR (3 DOWNTO 0);
-   SIGNAL ADD	:	STD_LOGIC_VECTOR (3 DOWNTO 0);
-   SIGNAL SFT	:	STD_LOGIC_VECTOR (3 DOWNTO 0);
-   SIGNAL S1	:	STD_LOGIC;
    SIGNAL CO	:	STD_LOGIC;
 
 BEGIN
 
    UUT: my_alu PORT MAP(
 		S0 => S0, 
-		COMP => COMP, 
 		B => B, 
 		A => A, 
 		RES => RES, 
-		ADD => ADD, 
-		SFT => SFT, 
 		S1 => S1, 
 		CO => CO
    );
@@ -60,15 +51,75 @@ BEGIN
 -- *** Test Bench - User Defined Section ***
    tb : PROCESS
    BEGIN
-	S0 <= '0',
-			'1' after 50 ns,
-			'0' after 100 ns,
-			'1' after 150 ns;
-		S1 <= '0',
-			'1' after 100 ns;
-			
+		--Addition
+		S0 <= '0';
+		S1 <= '0';
+		-- Test both 0.
+		A <= "0000";
+		B <= "0000";
+		wait for 10 ns;
+		
+		-- Test only A
+		A <= "0101";
+		B <= "0000";
+		wait for 10 ns;
+		
+		-- Test only B.
+		A <= "0000";
+		B <= "1010";
+		wait for 10 ns;
+		
+		-- Test A + B
+		A <= "0101";
+		B <= "1010";
+		wait for 10 ns;
+		
+		-- Test carry out.
 		A <= "1111";
-		B <= "0101";
+		B <= "1111";
+		wait for 10 ns;
+		
+		-- Test carry out go low
+		A <= "0010";
+		B <= "0010";
+		wait for 10 ns;
+		
+		-- Shift right A
+		S0 <= '1';
+		S1 <= '0';
+		A <= "0000";
+		wait for 10 ns;
+		A <= "1111";
+		wait for 10 ns;
+		A <= "0100";
+		wait for 10 ns;
+		A <= "0010";
+		wait for 10 ns;
+		
+		-- Shift left A
+		S0 <= '0';
+		S1 <= '1';
+		A <= "0000";
+		wait for 10 ns;
+		A <= "1111";
+		wait for 10 ns;
+		A <= "0100";
+		wait for 10 ns;
+		A <= "0010";
+		wait for 10 ns;
+		
+		-- Complement A
+		S0 <= '1';
+		S1 <= '1';
+		A <= "0000";
+		wait for 10 ns;
+		A <= "1111";
+		wait for 10 ns;
+		A <= "0100";
+		wait for 10 ns;
+		A <= "0010";
+		wait for 10 ns;
+		
       WAIT; -- will wait forever
    END PROCESS;
 -- *** End Test Bench - User Defined Section ***

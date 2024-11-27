@@ -1,5 +1,0 @@
-vhdl work "my_mux4_4to1.vhf"
-vhdl work "my_alu.vhf"
-vhdl work "my_alu_test.vhd"
-vhdl work "mux4_3to1.vhf"
-vhdl work "my_inv4_en.vhf"

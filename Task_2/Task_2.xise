@@ -15,7 +15,6 @@
   <version xil_pn:ise_version="14.7" xil_pn:schema_version="2"/>
 
   <files>
-    <file xil_pn:name="my_full_addr.sch" xil_pn:type="FILE_SCHEMATIC"/>
     <file xil_pn:name="my_alu.sch" xil_pn:type="FILE_SCHEMATIC">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="16"/>
@@ -35,6 +34,16 @@
     <file xil_pn:name="my_mux4_4to1.sch" xil_pn:type="FILE_SCHEMATIC">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="35"/>
+    </file>
+    <file xil_pn:name="my_status_register.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="32"/>
+    </file>
+    <file xil_pn:name="my_status_register_test.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="33"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="33"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="33"/>
     </file>
   </files>
 
