@@ -5,5 +5,11 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="error" file="HDLCompiler" num="1314" delta="unknown" >"/vol/home/s3787494/projects/fdsd/Task_3/my_rom_16_7_sch_test.vhd" Line 62: Formal port/generic &lt;<arg fmt="%s" index="1">value0</arg>&gt; is not declared in &lt;<arg fmt="%s" index="2">my_rom_16_7</arg>&gt;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"/vol/home/s3787494/projects/fdsd/Task_3/my_rom_16_7_sch_test.vhd" Line 38: Unit &lt;<arg fmt="%s" index="1">behavior</arg>&gt; ignored due to previous errors.
+</msg>
+
 </messages>
 

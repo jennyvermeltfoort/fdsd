@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   14:23:24 11/26/2024
+-- Create Date:   16:40:02 11/27/2024
 -- Design Name:   
--- Module Name:   /home/jenn/fdsd/Task_3/my_rom_16_7_test.vhd
+-- Module Name:   /vol/home/s3787494/projects/fdsd/Task_3/my_rom_16_7_sch_test.vhd
 -- Project Name:  Task_3
 -- Target Device:  
 -- Tool versions:  
@@ -27,38 +27,19 @@
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
-USE ieee.numeric_std.all;
  
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --USE ieee.numeric_std.ALL;
  
-ENTITY my_rom_16_7_test IS
-END my_rom_16_7_test;
+ENTITY my_rom_16_7_sch_test IS
+END my_rom_16_7_sch_test;
  
-ARCHITECTURE behavior OF my_rom_16_7_test IS 
+ARCHITECTURE behavior OF my_rom_16_7_sch_test IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
     COMPONENT my_rom_16_7
-	 Generic (
-		EL0 : std_logic_vector := "0000000";
-		EL1 : std_logic_vector := "0000000";
-		EL2 : std_logic_vector := "0000000";
-		EL3 : std_logic_vector := "0000000";
-		EL4 : std_logic_vector := "0000000";
-		EL5 : std_logic_vector := "0000000";
-		EL6 : std_logic_vector := "0000000";
-		EL7 : std_logic_vector := "0000000";
-		EL8 : std_logic_vector := "0000000";
-		EL9 : std_logic_vector := "0000000";
-		EL10 : std_logic_vector := "0000000";
-		EL11 : std_logic_vector := "0000000";
-		EL12 : std_logic_vector := "0000000";
-		EL13 : std_logic_vector := "0000000";
-		EL14 : std_logic_vector := "0000000";
-		EL15 : std_logic_vector := "0000000"
-	);
     PORT(
          A : IN  std_logic_vector(3 downto 0);
          D : OUT  std_logic_vector(6 downto 0)
@@ -71,40 +52,43 @@ ARCHITECTURE behavior OF my_rom_16_7_test IS
 
  	--Outputs
    signal D : std_logic_vector(6 downto 0);
+   -- No clocks detected in port list. Replace <clock> below with 
+   -- appropriate port name 
  
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
-   uut: my_rom_16_7  generic map (
-      EL0 => "0000000",
-		EL1 => "1000000",
-		EL2  => "0100000",
-		EL3  => "1100000",
-		EL4  => "0010000",
-		EL5  => "1010000",
-		EL6  => "0110000",
-		EL7  => "1110000",
-		EL8  => "0001000",
-		EL9  => "1001000",
-		EL10 => "0101000",
-		EL11 => "1101000",
-		EL12  =>"0011000",
-		EL13  =>"1011000",
-		EL14  =>"0111000",
-		EL15  =>"1111000"
-    )
-	 PORT MAP (
+	uut: my_rom_16_7 generic map (
+			VALUE0 => "0000000", 
+			VALUE1 => "1000000", 
+			VALUE2 => "0100000", 
+			VALUE3 => "1100000", 
+			VALUE4 => "0010000", 
+			VALUE5 => "1010000", 
+			VALUE6 => "0110000", 
+			VALUE7 => "1110000", 
+			VALUE8 => "0001000", 
+			VALUE9 => "1001000", 
+			VALUE10 => "0101000",
+			VALUE11 => "1101000",
+			VALUE12 =>"0011000",
+			VALUE13 =>"1011000",
+			VALUE14 =>"0111000",
+			VALUE15=> "1111000"
+		)
+		PORT MAP (
           A => A,
           D => D
         );
 
+   -- Stimulus process
    stim_proc: process
-   begin
-		for i in 0 to 15 loop
-			A <= std_logic_vector(to_unsigned(i, 4));
-			wait for 10 ns;
-		end loop;
-		wait;
+   begin		
+
+
+      -- insert stimulus here 
+
+      wait;
    end process;
 
 END;

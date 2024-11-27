@@ -56,7 +56,7 @@ end my_rom_16_7;
 architecture Behavioral of my_rom_16_7 is
 	type MEMORY_16_7 is array (0 to 15) of std_logic_vector(6 downto 0);
 	constant ROM_16_7 : MEMORY_16_7 := (
-	-- Program the program here:
+	-- This is the program:
 		EL0,
 		EL1,
 		EL2,
