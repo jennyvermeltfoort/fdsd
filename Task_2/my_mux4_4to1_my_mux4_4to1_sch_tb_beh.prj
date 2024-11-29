@@ -1,0 +1,3 @@
+vhdl work "my_mux4_4to1.vhf"
+vhdl work "my_mux4_4to1_test.vhd"
+vhdl work "my_mux4_2to1.vhf"
