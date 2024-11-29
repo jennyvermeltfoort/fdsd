@@ -214,7 +214,7 @@
     </transform>
     <transform xil_pn:end_ts="1732731957" xil_pn:in_ck="8669945271003932725" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-835975668257491176" xil_pn:start_ts="1732731954">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -224,7 +224,7 @@
     </transform>
     <transform xil_pn:end_ts="1732731970" xil_pn:in_ck="8669945271003932726" xil_pn:name="TRANEXT_map_virtex6" xil_pn:prop_ck="-8064276643144408623" xil_pn:start_ts="1732731957">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -233,7 +233,7 @@
     </transform>
     <transform xil_pn:end_ts="1732731988" xil_pn:in_ck="5507188038106505807" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="8969472336045954842" xil_pn:start_ts="1732731970">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -242,7 +242,7 @@
     </transform>
     <transform xil_pn:end_ts="1732731988" xil_pn:in_ck="8669945271003932594" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1732731981">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
