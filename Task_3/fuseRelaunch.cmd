@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/jenn/fdsd/Task_3/my_rom_16_7_my_rom_16_7_sch_tb_isim_beh.exe" -prj "/home/jenn/fdsd/Task_3/my_rom_16_7_my_rom_16_7_sch_tb_beh.prj" "work.my_rom_16_7_my_rom_16_7_sch_tb" 
+-intstyle "ise" -incremental -lib "secureip" -o "/vol/home/s3787494/projects/fdsd/Task_3/my_rom_my_rom_sch_tb_isim_beh.exe" -prj "/vol/home/s3787494/projects/fdsd/Task_3/my_rom_my_rom_sch_tb_beh.prj" "work.my_rom_my_rom_sch_tb" 
