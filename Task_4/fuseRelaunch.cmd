@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/vol/home/s3787494/projects/fdsd/Task_4/my_decoder_my_decoder_sch_tb_isim_beh.exe" -prj "/vol/home/s3787494/projects/fdsd/Task_4/my_decoder_my_decoder_sch_tb_beh.prj" "work.my_decoder_my_decoder_sch_tb" 
