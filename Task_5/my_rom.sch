@@ -48,7 +48,7 @@
             <line x2="64" y1="-128" y2="-96" x1="64" />
         </blockdef>
         <block symbolname="rom32x1" name="XLXI_13">
-            <attr value="00000A4A" name="INIT">
+            <attr value="00000525" name="INIT">
                 <trait verilog="all:0 dp:1nosynth wsynop:1 wsynth:1" />
                 <trait vhdl="all:0 gm:1nosynth wa:1 wd:1" />
                 <trait valuetype="BitVector 32 h" />
@@ -64,7 +64,7 @@
             <blockpin signalname="XLXN_42" name="G" />
         </block>
         <block symbolname="rom32x1" name="XLXI_15">
-            <attr value="00000002" name="INIT">
+            <attr value="00000001" name="INIT">
                 <trait verilog="all:0 dp:1nosynth wsynop:1 wsynth:1" />
                 <trait vhdl="all:0 gm:1nosynth wa:1 wd:1" />
                 <trait valuetype="BitVector 32 h" />
@@ -83,7 +83,7 @@
             <blockpin signalname="XLXN_54" name="G" />
         </block>
         <block symbolname="rom32x1" name="XLXI_17">
-            <attr value="00000240" name="INIT">
+            <attr value="00000120" name="INIT">
                 <trait verilog="all:0 dp:1nosynth wsynop:1 wsynth:1" />
                 <trait vhdl="all:0 gm:1nosynth wa:1 wd:1" />
                 <trait valuetype="BitVector 32 h" />
@@ -96,7 +96,7 @@
             <blockpin signalname="Q(2)" name="O" />
         </block>
         <block symbolname="rom32x1" name="XLXI_1">
-            <attr value="00002A6A" name="INIT">
+            <attr value="00001535" name="INIT">
                 <trait verilog="all:0 dp:1nosynth wsynop:1 wsynth:1" />
                 <trait vhdl="all:0 gm:1nosynth wa:1 wd:1" />
                 <trait valuetype="BitVector 32 h" />
@@ -112,7 +112,7 @@
             <blockpin signalname="XLXN_6" name="G" />
         </block>
         <block symbolname="rom32x1" name="XLXI_7">
-            <attr value="00002624" name="INIT">
+            <attr value="00001312" name="INIT">
                 <trait verilog="all:0 dp:1nosynth wsynop:1 wsynth:1" />
                 <trait vhdl="all:0 gm:1nosynth wa:1 wd:1" />
                 <trait valuetype="BitVector 32 h" />
@@ -128,7 +128,7 @@
             <blockpin signalname="XLXN_24" name="G" />
         </block>
         <block symbolname="rom32x1" name="XLXI_9">
-            <attr value="000006C6" name="INIT">
+            <attr value="00000363" name="INIT">
                 <trait verilog="all:0 dp:1nosynth wsynop:1 wsynth:1" />
                 <trait vhdl="all:0 gm:1nosynth wa:1 wd:1" />
                 <trait valuetype="BitVector 32 h" />
@@ -144,7 +144,7 @@
             <blockpin signalname="XLXN_30" name="G" />
         </block>
         <block symbolname="rom32x1" name="XLXI_11">
-            <attr value="00000202" name="INIT">
+            <attr value="00000101" name="INIT">
                 <trait verilog="all:0 dp:1nosynth wsynop:1 wsynth:1" />
                 <trait vhdl="all:0 gm:1nosynth wa:1 wd:1" />
                 <trait valuetype="BitVector 32 h" />

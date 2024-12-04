@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="my_register_4bit">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2024-12-4T13:57:30</timestamp>
+    <timestamp>2024-12-4T19:7:50</timestamp>
     <pin polarity="Input" x="0" y="-224" name="CLK" />
     <pin polarity="Input" x="0" y="-160" name="RST" />
     <pin polarity="Input" x="0" y="-96" name="LOAD" />

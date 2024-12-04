@@ -2,3 +2,5 @@ vhdtdtfi -lib work my_rom_test.vhd -prj Task_5 -o my_rom_my_rom_sch_tb.spl -modu
 spl2sym -intstyle ise -family virtex6 -w my_rom_my_rom_sch_tb.spl /home/jenn/fdsd/Task_5/my_rom_my_rom_sch_tb.sym 
 vhdtdtfi -lib work my_rom_test.vhd -prj Task_5 -o my_rom_my_rom_sch_tb.spl -module my_rom_my_rom_sch_tb -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family virtex6 -w my_rom_my_rom_sch_tb.spl /home/jenn/fdsd/Task_5/my_rom_my_rom_sch_tb.sym 
+vhdtdtfi -lib work my_rom_test.vhd -prj Task_5 -o my_rom_my_rom_sch_tb.spl -module my_rom_my_rom_sch_tb -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex6 -w my_rom_my_rom_sch_tb.spl /home/jenn/fdsd/Task_5/my_rom_my_rom_sch_tb.sym 

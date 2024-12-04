@@ -1,9 +1,1 @@
 MODULE my_register_4bit
-	SUBMODULE my_2in_mux
-		INSTANCE XLXI_2
-	SUBMODULE my_2in_mux
-		INSTANCE XLXI_22
-	SUBMODULE my_2in_mux
-		INSTANCE XLXI_24
-	SUBMODULE my_2in_mux
-		INSTANCE XLXI_26

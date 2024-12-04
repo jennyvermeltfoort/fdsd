@@ -6,10 +6,8 @@
         <trait edittrait="all:0" />
     </attr>
     <netlist>
-        <signal name="asdafasdf">
-        </signal>
-        <signal name="asdfwqer">
-        </signal>
+        <signal name="asdafasdf" />
+        <signal name="asdfwqer" />
         <signal name="OP(2:0)" />
         <signal name="OP(2)" />
         <signal name="OP(0)" />
@@ -18,29 +16,23 @@
         <signal name="XLXN_26" />
         <signal name="XLXN_56" />
         <signal name="REGAEN" />
-        <signal name="MUXBS" />
-        <signal name="MUXAS" />
         <signal name="S0" />
         <signal name="S1" />
         <signal name="LOADPC" />
         <signal name="STATEN" />
-        <signal name="asdfcvzz">
-        </signal>
         <signal name="REGBEN" />
-        <signal name="XLXN_88" />
-        <signal name="XLXN_89" />
-        <signal name="XLXN_91" />
-        <signal name="XLXN_92" />
-        <signal name="XLXN_93" />
+        <signal name="asdfcvzz" />
+        <signal name="MUXBS" />
+        <signal name="MUXAS" />
         <port polarity="Input" name="OP(2:0)" />
         <port polarity="Output" name="REGAEN" />
-        <port polarity="Output" name="MUXBS" />
-        <port polarity="Output" name="MUXAS" />
         <port polarity="Output" name="S0" />
         <port polarity="Output" name="S1" />
         <port polarity="Output" name="LOADPC" />
         <port polarity="Output" name="STATEN" />
         <port polarity="Output" name="REGBEN" />
+        <port polarity="Output" name="MUXBS" />
+        <port polarity="Output" name="MUXAS" />
         <blockdef name="and2">
             <timestamp>2000-1-1T10:10:10</timestamp>
             <line x2="64" y1="-64" y2="-64" x1="0" />
@@ -207,14 +199,6 @@
             <wire x2="2368" y1="688" y2="688" x1="2336" />
         </branch>
         <iomarker fontsize="28" x="2368" y="688" name="REGAEN" orien="R0" />
-        <branch name="MUXBS">
-            <wire x2="2336" y1="928" y2="928" x1="2304" />
-        </branch>
-        <iomarker fontsize="28" x="2336" y="928" name="MUXBS" orien="R0" />
-        <branch name="MUXAS">
-            <wire x2="2336" y1="1024" y2="1024" x1="2304" />
-        </branch>
-        <iomarker fontsize="28" x="2336" y="1024" name="MUXAS" orien="R0" />
         <branch name="S0">
             <wire x2="2336" y1="1152" y2="1152" x1="2304" />
         </branch>
@@ -231,9 +215,6 @@
         <iomarker fontsize="28" x="2384" y="1712" name="STATEN" orien="R0" />
         <instance x="1056" y="864" name="XLXI_6" orien="R0" />
         <instance x="1344" y="784" name="XLXI_5" orien="R0" />
-        <branch name="asdfcvzz">
-            <wire x2="2112" y1="688" y2="688" x1="1600" />
-        </branch>
         <branch name="OP(0)">
             <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="320" y="736" type="branch" />
             <wire x2="320" y1="736" y2="736" x1="272" />
@@ -244,9 +225,10 @@
             <wire x2="784" y1="736" y2="1152" x1="784" />
             <wire x2="2080" y1="1152" y2="1152" x1="784" />
             <wire x2="1056" y1="736" y2="736" x1="784" />
-            <wire x2="272" y1="784" y2="1424" x1="272" />
-            <wire x2="1648" y1="1424" y2="1424" x1="272" />
             <wire x2="368" y1="784" y2="784" x1="272" />
+            <wire x2="272" y1="784" y2="848" x1="272" />
+            <wire x2="272" y1="848" y2="1424" x1="272" />
+            <wire x2="1648" y1="1424" y2="1424" x1="272" />
         </branch>
         <iomarker fontsize="28" x="2384" y="544" name="REGBEN" orien="R0" />
         <branch name="REGBEN">
@@ -269,9 +251,6 @@
             <wire x2="736" y1="656" y2="1648" x1="736" />
             <wire x2="1632" y1="1648" y2="1648" x1="736" />
         </branch>
-        <branch name="asdafasdf">
-            <wire x2="2128" y1="544" y2="544" x1="1504" />
-        </branch>
         <branch name="OP(1)">
             <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="320" y="848" type="branch" />
             <wire x2="320" y1="848" y2="848" x1="272" />
@@ -286,5 +265,20 @@
         </branch>
         <instance x="1648" y="1616" name="XLXI_23" orien="R0" />
         <iomarker fontsize="28" x="2352" y="1488" name="LOADPC" orien="R0" />
+        <branch name="asdfcvzz">
+            <wire x2="2112" y1="688" y2="688" x1="1600" />
+        </branch>
+        <branch name="asdafasdf">
+            <wire x2="2128" y1="544" y2="544" x1="1504" />
+        </branch>
+        <branch name="MUXBS">
+            <wire x2="2320" y1="928" y2="928" x1="2304" />
+            <wire x2="2368" y1="928" y2="928" x1="2320" />
+        </branch>
+        <branch name="MUXAS">
+            <wire x2="2368" y1="1024" y2="1024" x1="2304" />
+        </branch>
+        <iomarker fontsize="28" x="2368" y="1024" name="MUXAS" orien="R0" />
+        <iomarker fontsize="28" x="2368" y="928" name="MUXBS" orien="R0" />
     </sheet>
 </drawing>
