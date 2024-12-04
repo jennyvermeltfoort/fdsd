@@ -1,6 +1,5 @@
 ISim log file
-Running: /vol/home/s3787494/projects/fdsd/Task_4/my_decoder_my_decoder_sch_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /vol/home/s3787494/projects/fdsd/Task_4/my_decoder_my_decoder_sch_tb_isim_beh.wdb 
-INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+Running: /vol/home/s3787494/projects/fdsd/Task_5/my_cpu_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /vol/home/s3787494/projects/fdsd/Task_5/my_cpu_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -28,5 +27,8 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
+at 0 ps, Instance /my_cpu/XLXI_3/XLXI_11/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /my_cpu/XLXI_3/XLXI_11/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /my_cpu/XLXI_3/XLXI_11/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
 # exit 0

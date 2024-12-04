@@ -15,3 +15,5 @@ MODULE my_cpu
 		INSTANCE XLXI_9
 	SUBMODULE my_program_counter
 		INSTANCE XLXI_10
+	SUBMODULE my_decoder
+		INSTANCE XLXI_93
