@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/vol/home/s3787494/projects/fdsd/Task_5/my_cpu_isim_beh.exe" -prj "/vol/home/s3787494/projects/fdsd/Task_5/my_cpu_beh.prj" "work.my_cpu" 

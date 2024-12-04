@@ -1,0 +1,17 @@
+MODULE my_cpu
+	SUBMODULE my_alu
+		INSTANCE XLXI_3
+	SUBMODULE my_rom
+		INSTANCE XLXI_4
+	SUBMODULE my_status_register
+		INSTANCE XLXI_5
+	SUBMODULE my_register_4bit
+		INSTANCE REG_A
+	SUBMODULE my_register_4bit
+		INSTANCE REG_B
+	SUBMODULE my_mux4_2to1
+		INSTANCE XLXI_8
+	SUBMODULE my_mux4_2to1
+		INSTANCE XLXI_9
+	SUBMODULE my_program_counter
+		INSTANCE XLXI_10

@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family virtex6 -refsym mux4_2to1 /vol/home/s3787494/projects/fdsd/Task_5/mux4_2to1.sch /vol/home/s3787494/projects/fdsd/Task_5/mux4_2to1.sym 
