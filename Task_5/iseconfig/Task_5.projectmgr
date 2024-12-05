@@ -18,7 +18,9 @@
          <ClosedNode>/my_rom_my_rom_sch_tb - behavioral |vol|home|s3787494|projects|fdsd|Task_5|my_rom.vhd</ClosedNode>
          <ClosedNode>/my_rom_my_rom_sch_tb - behavioral |vol|home|s3787494|projects|fdsd|Task_5|my_rom_test.vhd</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>my_cpu (/home/jenn/fdsd/Task_5/my_cpu.sch)</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d60000000100000003000000000000000100000003</ViewHeaderState>
@@ -31,13 +33,13 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c40000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -46,7 +48,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001e3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000d20000000100000000000000290000000100000000000000840000000100000000000000640000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000089c000000040101000100000000000000000000000064ffffffff000000810000000000000004000000d200000001000000000000002900000001000000000000008400000001000000000000071d0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>my_2in_mux.sch</CurrentItem>
    </ItemView>
@@ -73,13 +75,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c40000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -92,8 +94,11 @@
          <ClosedNode>/my_cpu |vol|home|s3787494|projects|fdsd|Task_5|my_cpu.sch/XLXI_3 - my_alu</ClosedNode>
          <ClosedNode>/my_cpu |vol|home|s3787494|projects|fdsd|Task_5|my_cpu.sch/XLXI_8 - my_mux4_2to1</ClosedNode>
          <ClosedNode>/my_cpu |vol|home|s3787494|projects|fdsd|Task_5|my_cpu.sch/XLXI_9 - my_mux4_2to1</ClosedNode>
+         <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/MUX_REG_A - my_mux4_2to1</ClosedNode>
+         <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/MUX_REG_B - my_mux4_2to1</ClosedNode>
          <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/REG_A - my_register_4bit</ClosedNode>
          <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/REG_B - my_register_4bit</ClosedNode>
+         <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/XLXI_3 - my_alu</ClosedNode>
          <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/XLXI_8 - my_mux4_2to1</ClosedNode>
          <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/XLXI_9 - my_mux4_2to1</ClosedNode>
          <ClosedNode>/my_mux4_2to1 |vol|home|s3787494|projects|fdsd|Task_5|my_mux4_2to1.sch</ClosedNode>
@@ -101,14 +106,12 @@
          <ClosedNode>/my_rom_my_rom_sch_tb - behavioral |vol|home|s3787494|projects|fdsd|Task_5|my_rom.vhd</ClosedNode>
          <ClosedNode>/my_rom_my_rom_sch_tb - behavioral |vol|home|s3787494|projects|fdsd|Task_5|my_rom_test.vhd</ClosedNode>
       </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>XLXI_2 - my_2in_mux (/home/jenn/fdsd/Task_5/my_2in_mux.sch)</SelectedItem>
-      </SelectedItems>
+      <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ea000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ea0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>XLXI_2 - my_2in_mux (/home/jenn/fdsd/Task_5/my_2in_mux.sch)</CurrentItem>
+      <CurrentItem>my_cpu_my_cpu_sch_tb - behavioral (/home/jenn/fdsd/Task_5/my_cpu_test.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>

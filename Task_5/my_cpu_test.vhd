@@ -39,7 +39,7 @@ ARCHITECTURE behavioral OF my_cpu_my_cpu_sch_tb IS
    SIGNAL REG_A_LD	:	STD_LOGIC;
    SIGNAL REG_B_LD	:	STD_LOGIC;
    SIGNAL ALU_RES	:	STD_LOGIC_VECTOR (3 DOWNTO 0);
-
+	
 BEGIN
 
    UUT: my_cpu PORT MAP(
