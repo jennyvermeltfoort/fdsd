@@ -1,4 +1,4 @@
--- Vhdl test bench created from schematic /home/jenn/fdsd/Task_5/my_cpu.sch - Wed Dec  4 20:49:12 2024
+-- Vhdl test bench created from schematic /home/jenn/fdsd/Task_5/my_cpu.sch - Thu Dec  5 11:21:48 2024
 --
 -- Notes: 
 -- 1) This testbench template has been automatically generated using types
@@ -22,13 +22,14 @@ END my_cpu_my_cpu_sch_tb;
 ARCHITECTURE behavioral OF my_cpu_my_cpu_sch_tb IS 
 
    COMPONENT my_cpu
-   PORT( CLK	:	IN	STD_LOGIC; 
+   PORT(  CLK	:	IN	STD_LOGIC; 
           RST	:	IN	STD_LOGIC; 
           MUX_B_SEL	:	INOUT	STD_LOGIC; 
           MUX_A_SEL	:	INOUT	STD_LOGIC; 
           REG_A_LD	:	INOUT	STD_LOGIC; 
           REG_B_LD	:	INOUT	STD_LOGIC; 
-          ALU_RES	:	INOUT	STD_LOGIC_VECTOR (3 DOWNTO 0));
+          ALU_RES	:	INOUT	STD_LOGIC_VECTOR (3 DOWNTO 0)
+	);
    END COMPONENT;
 
    SIGNAL CLK	:	STD_LOGIC;
@@ -44,15 +45,15 @@ BEGIN
    UUT: my_cpu PORT MAP(
 		CLK => CLK, 
 		RST => RST, 
-		MUX_B_SEL => MUX_B_SEL, 
-		MUX_A_SEL => MUX_A_SEL, 
+		MUX_B_SEL => MUX_B_SEL,
+		MUX_A_SEL => MUX_A_SEL,
 		REG_A_LD => REG_A_LD, 
 		REG_B_LD => REG_B_LD, 
 		ALU_RES => ALU_RES
    );
-	
+
 -- *** Test Bench - User Defined Section ***
-	clk_proc : PROCESS
+   clk_proc : PROCESS
 	BEGIN
 		for i in 1 to 14 loop
 			CLK <= '1';

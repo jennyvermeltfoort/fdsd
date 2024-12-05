@@ -22,7 +22,6 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Task_5.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="mux4_2to1.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my_2in_mux.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my_alu.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my_decoder.sym" xil_pn:origination="imported"/>
@@ -31,7 +30,6 @@
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my_program_counter.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my_register_4bit.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my_rom.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my_rom_my_rom_sch_tb.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="my_status_register.sym" xil_pn:origination="imported"/>
   </files>
 

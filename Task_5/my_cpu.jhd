@@ -13,7 +13,7 @@ MODULE my_cpu
 		INSTANCE MUX_REG_A
 	SUBMODULE my_mux4_2to1
 		INSTANCE MUX_REG_B
-	SUBMODULE my_program_counter
-		INSTANCE XLXI_10
 	SUBMODULE my_decoder
+		INSTANCE XLXI_92
+	SUBMODULE my_program_counter
 		INSTANCE XLXI_93
