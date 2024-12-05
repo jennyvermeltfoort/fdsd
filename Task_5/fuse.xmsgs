@@ -5,5 +5,8 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="686" delta="unknown" >"/home/jenn/fdsd/Task_5/my_cpu_sim_x_13_y_4.vhd" Line 78: Overwriting existing secondary unit <arg fmt="%s" index="1">behavioral</arg>
+</msg>
+
 </messages>
 

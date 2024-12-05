@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/jenn/fdsd/Task_5/my_cpu_my_cpu_sch_tb_isim_beh.exe" -prj "/home/jenn/fdsd/Task_5/my_cpu_my_cpu_sch_tb_beh.prj" "work.my_cpu_my_cpu_sch_tb" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/jenn/fdsd/Task_5/my_cpu_sim_x_13_y_4_tb_isim_beh.exe" -prj "/home/jenn/fdsd/Task_5/my_cpu_sim_x_13_y_4_tb_beh.prj" "work.my_cpu_sim_x_13_y_4_tb" 

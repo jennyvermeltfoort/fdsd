@@ -4,3 +4,8 @@ sch2sym -intstyle ise -family virtex6 -w -refsym my_rom /home/jenn/fdsd/Task_5/m
 sch2sym -intstyle ise -family virtex6 -w -refsym my_rom /home/jenn/fdsd/Task_5/my_rom.sch /home/jenn/fdsd/Task_5/my_rom.sym 
 sch2sym -intstyle ise -family virtex6 -w -refsym my_rom /home/jenn/fdsd/Task_5/my_rom.sch /home/jenn/fdsd/Task_5/my_rom.sym 
 sch2sym -intstyle ise -family virtex6 -w -refsym my_rom /home/jenn/fdsd/Task_5/my_rom.sch /home/jenn/fdsd/Task_5/my_rom.sym 
+sch2sym -intstyle ise -family virtex6 -w -refsym my_rom /home/jenn/fdsd/Task_5/my_rom.sch /home/jenn/fdsd/Task_5/my_rom.sym 
+sch2sym -intstyle ise -family virtex6 -w -refsym my_rom /home/jenn/fdsd/Task_5/my_rom.sch /home/jenn/fdsd/Task_5/my_rom.sym 
+sch2vhdl -intstyle ise -family virtex6 -tionly -w /home/jenn/fdsd/Task_5/my_rom.sch my_rom.vhi 
+sch2sym -intstyle ise -family virtex6 -w -refsym my_rom /home/jenn/fdsd/Task_5/my_rom.sch /home/jenn/fdsd/Task_5/my_rom.sym 
+sch2sym -intstyle ise -family virtex6 -w -refsym my_rom /home/jenn/fdsd/Task_5/my_rom.sch /home/jenn/fdsd/Task_5/my_rom.sym 

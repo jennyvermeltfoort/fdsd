@@ -16,14 +16,11 @@
         <signal name="REG_B_LD" />
         <signal name="XLXN_5" />
         <signal name="XLXN_10" />
-        <signal name="ROM_OUT(6:0)">
-        </signal>
-        <signal name="REG_B_OUT(3:0)">
-        </signal>
+        <signal name="ROM_OUT(6:0)" />
+        <signal name="REG_B_OUT(3:0)" />
         <signal name="ALU_RES(3:0)" />
         <signal name="PCO(3:0)" />
-        <signal name="OPCODE(2:0)">
-        </signal>
+        <signal name="OPCODE(2:0)" />
         <signal name="MUX_D1(3:0)" />
         <signal name="ROM_PC(3:0)" />
         <signal name="ROM_OUT(0)" />
@@ -43,10 +40,8 @@
         <signal name="ROM_PC(2)" />
         <signal name="ROM_PC(3)" />
         <signal name="OPCODE(0)" />
-        <signal name="S1">
-        </signal>
-        <signal name="S0">
-        </signal>
+        <signal name="S1" />
+        <signal name="S0" />
         <signal name="XLXN_371" />
         <signal name="XLXN_372" />
         <signal name="MUX_D1(1)" />
@@ -77,7 +72,7 @@
             <line x2="384" y1="-32" y2="-32" x1="320" />
         </blockdef>
         <blockdef name="my_rom">
-            <timestamp>2024-12-4T19:16:35</timestamp>
+            <timestamp>2024-12-5T13:3:39</timestamp>
             <rect width="256" x="64" y="-64" height="64" />
             <rect width="64" x="0" y="-44" height="24" />
             <line x2="0" y1="-32" y2="-32" x1="64" />

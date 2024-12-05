@@ -8,6 +8,9 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/my_alu |vol|home|s3787494|projects|fdsd|Task_5|my_alu.sch</ClosedNode>
+         <ClosedNode>/my_cpu |home|jenn|fdsd|Task_5|my_cpu.sch/MUX_REG_A - my_mux4_2to1</ClosedNode>
+         <ClosedNode>/my_cpu |home|jenn|fdsd|Task_5|my_cpu.sch/MUX_REG_B - my_mux4_2to1</ClosedNode>
+         <ClosedNode>/my_cpu |home|jenn|fdsd|Task_5|my_cpu.sch/XLXI_3 - my_alu</ClosedNode>
          <ClosedNode>/my_cpu |vol|home|s3787494|projects|fdsd|Task_5|my_cpu.sch/REG_A - my_register_4bit</ClosedNode>
          <ClosedNode>/my_cpu |vol|home|s3787494|projects|fdsd|Task_5|my_cpu.sch/REG_B - my_register_4bit</ClosedNode>
          <ClosedNode>/my_cpu |vol|home|s3787494|projects|fdsd|Task_5|my_cpu.sch/XLXI_3 - my_alu</ClosedNode>
@@ -33,13 +36,13 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000028c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000028c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -48,9 +51,9 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000089c000000040101000100000000000000000000000064ffffffff000000810000000000000004000000d200000001000000000000002900000001000000000000008400000001000000000000071d0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000028c000000040101000100000000000000000000000064ffffffff000000810000000000000004000000d200000001000000000000002900000001000000000000008400000001000000000000010d0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>my_2in_mux.sch</CurrentItem>
+      <CurrentItem>my_mux4_2to1.sch</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -59,7 +62,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000125000000010001000100000000000000000000000064ffffffff000000810000000000000001000001250000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000028c000000010001000100000000000000000000000064ffffffff0000008100000000000000010000028c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -94,6 +97,13 @@
          <ClosedNode>/my_cpu |vol|home|s3787494|projects|fdsd|Task_5|my_cpu.sch/XLXI_3 - my_alu</ClosedNode>
          <ClosedNode>/my_cpu |vol|home|s3787494|projects|fdsd|Task_5|my_cpu.sch/XLXI_8 - my_mux4_2to1</ClosedNode>
          <ClosedNode>/my_cpu |vol|home|s3787494|projects|fdsd|Task_5|my_cpu.sch/XLXI_9 - my_mux4_2to1</ClosedNode>
+         <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_sim_x_13_y_4.vhd</ClosedNode>
+         <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_sim_x_13_y_4.vhd/UUT - my_cpu</ClosedNode>
+         <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_sim_x_13_y_4.vhd/UUT - my_cpu/MUX_REG_A - my_mux4_2to1</ClosedNode>
+         <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_sim_x_13_y_4.vhd/UUT - my_cpu/MUX_REG_B - my_mux4_2to1</ClosedNode>
+         <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_sim_x_13_y_4.vhd/UUT - my_cpu/XLXI_3 - my_alu</ClosedNode>
+         <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_sim_x_5_y_11.vhd</ClosedNode>
+         <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd</ClosedNode>
          <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/MUX_REG_A - my_mux4_2to1</ClosedNode>
          <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/MUX_REG_B - my_mux4_2to1</ClosedNode>
          <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/REG_A - my_register_4bit</ClosedNode>
@@ -101,19 +111,51 @@
          <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/XLXI_3 - my_alu</ClosedNode>
          <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/XLXI_8 - my_mux4_2to1</ClosedNode>
          <ClosedNode>/my_cpu_my_cpu_sch_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_test.vhd/UUT - my_cpu/XLXI_9 - my_mux4_2to1</ClosedNode>
+         <ClosedNode>/my_cpu_sim_x_13_y_4_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_sim_x_13_y_4.vhd</ClosedNode>
+         <ClosedNode>/my_cpu_sim_x_5_y_11_tb - behavioral |home|jenn|fdsd|Task_5|my_cpu_sim_x_5_y_11.vhd</ClosedNode>
          <ClosedNode>/my_mux4_2to1 |vol|home|s3787494|projects|fdsd|Task_5|my_mux4_2to1.sch</ClosedNode>
          <ClosedNode>/my_register_4bit |vol|home|s3787494|projects|fdsd|Task_5|my_register_4bit.sch</ClosedNode>
          <ClosedNode>/my_rom_my_rom_sch_tb - behavioral |vol|home|s3787494|projects|fdsd|Task_5|my_rom.vhd</ClosedNode>
          <ClosedNode>/my_rom_my_rom_sch_tb - behavioral |vol|home|s3787494|projects|fdsd|Task_5|my_rom_test.vhd</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>my_cpu_sim_x_13_y_4_tb - behavioral (/home/jenn/fdsd/Task_5/my_cpu_sim_x_13_y_4.vhd)</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ea000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ea0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000208000000020000000000000000000000000200000064ffffffff000000810000000300000002000002080000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>my_cpu_my_cpu_sch_tb - behavioral (/home/jenn/fdsd/Task_5/my_cpu_test.vhd)</CurrentItem>
+      <CurrentItem>my_cpu_sim_x_13_y_4_tb - behavioral (/home/jenn/fdsd/Task_5/my_cpu_sim_x_13_y_4.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000028c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000028c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000027c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000027c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Design Utilities</ClosedNode>
@@ -123,35 +165,9 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000028c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000028c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
-   </ItemView>
-   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
-      <ClosedNodes>
-         <ClosedNodesVersion>1</ClosedNodesVersion>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>Design Utilities</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b40000000100000000</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Design Utilities</CurrentItem>
-   </ItemView>
-   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
-      <ClosedNodes>
-         <ClosedNodesVersion>1</ClosedNodesVersion>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>Simulate Behavioral Model</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c40000000100000000</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -162,8 +178,47 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000028c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000028c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>my_register_4bit.sch (/home/jenn/fdsd/Task_5/my_register_4bit.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000019b000000020000000000000000000000000000000064ffffffff000000810000000000000002000001090000000100000000000000920000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>my_register_4bit.sch (/home/jenn/fdsd/Task_5/my_register_4bit.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_PACKAGE_BODY" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000028c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000028c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_PACKAGE_DECL" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000028c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000028c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
    </ItemView>
 </Project>

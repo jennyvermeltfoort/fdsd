@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/jenn/fdsd/Task_5/my_cpu_sim_x_5_y_11_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="my_cpu_sim_x_5_y_11_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/alu_res" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_res[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_res[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/mux_a_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_a_sel</obj_property>
+      <obj_property name="ObjectShortName">mux_a_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/mux_b_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_b_sel</obj_property>
+      <obj_property name="ObjectShortName">mux_b_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/reg_a_ld" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_a_ld</obj_property>
+      <obj_property name="ObjectShortName">reg_a_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/reg_b_ld" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_b_ld</obj_property>
+      <obj_property name="ObjectShortName">reg_b_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/muxregao" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">muxregao[3:0]</obj_property>
+      <obj_property name="ObjectShortName">muxregao[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/muxregbo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">muxregbo[3:0]</obj_property>
+      <obj_property name="ObjectShortName">muxregbo[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/mux_d1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_d1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_d1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/pco" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pco[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pco[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/reg_a_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_a_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_a_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/reg_b_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_b_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_b_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/rom_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rom_out[6:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_out[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/rom_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rom_pc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_pc[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/s0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s0</obj_property>
+      <obj_property name="ObjectShortName">s0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/s1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s1</obj_property>
+      <obj_property name="ObjectShortName">s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/xlxn_5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_5</obj_property>
+      <obj_property name="ObjectShortName">xlxn_5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/xlxn_10" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_10</obj_property>
+      <obj_property name="ObjectShortName">xlxn_10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/xlxn_371" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_371</obj_property>
+      <obj_property name="ObjectShortName">xlxn_371</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_5_y_11_tb/UUT/xlxn_372" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_372</obj_property>
+      <obj_property name="ObjectShortName">xlxn_372</obj_property>
+   </wvobject>
+</wave_config>
