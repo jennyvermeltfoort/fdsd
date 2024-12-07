@@ -288,10 +288,12 @@
             <wire x2="3072" y1="912" y2="912" x1="2976" />
         </branch>
         <branch name="ALU_RES(3:0)">
-            <wire x2="320" y1="1616" y2="1616" x1="272" />
+            <wire x2="304" y1="1616" y2="1616" x1="288" />
+            <wire x2="320" y1="1616" y2="1616" x1="304" />
         </branch>
         <branch name="MUX_A_SEL">
-            <wire x2="320" y1="1680" y2="1680" x1="272" />
+            <wire x2="304" y1="1680" y2="1680" x1="288" />
+            <wire x2="320" y1="1680" y2="1680" x1="304" />
         </branch>
         <instance x="1504" y="1200" name="XLXI_3" orien="R0">
         </instance>
@@ -328,8 +330,6 @@
         <instance x="320" y="1712" name="MUX_REG_A" orien="R0">
             <attrtext style="fontsize:28;fontname:Arial" attrname="InstName" x="128" y="-32" type="instance" />
         </instance>
-        <iomarker fontsize="28" x="272" y="1616" name="ALU_RES(3:0)" orien="R180" />
-        <iomarker fontsize="28" x="272" y="1680" name="MUX_A_SEL" orien="R180" />
         <branch name="MUXREGAO(3:0)">
             <wire x2="928" y1="1552" y2="1552" x1="704" />
         </branch>
@@ -587,5 +587,7 @@
             <wire x2="2320" y1="1744" y2="1872" x1="2320" />
             <wire x2="2320" y1="1872" y2="2000" x1="2320" />
         </branch>
+        <iomarker fontsize="28" x="288" y="1616" name="ALU_RES(3:0)" orien="R180" />
+        <iomarker fontsize="28" x="288" y="1680" name="MUX_A_SEL" orien="R180" />
     </sheet>
 </drawing>
