@@ -6,33 +6,83 @@
         <trait edittrait="all:0" />
     </attr>
     <netlist>
-        <signal name="asdafasdf" />
-        <signal name="asdfwqer" />
+        <signal name="NOT_OP1" />
+        <signal name="OP2" />
+        <signal name="OP0" />
+        <signal name="OP1" />
+        <signal name="NOT_OP0" />
+        <signal name="NOT_OP2" />
+        <signal name="asdfasdfzxcvzx">
+        </signal>
+        <signal name="XLXN_57" />
+        <signal name="XLXN_58" />
+        <signal name="XLXN_59" />
+        <signal name="XLXN_60" />
+        <signal name="XLXN_61" />
+        <signal name="XLXN_66" />
+        <signal name="XLXN_77" />
+        <signal name="XLXN_81" />
+        <signal name="XLXN_85" />
+        <signal name="XLXN_86" />
+        <signal name="XLXN_88" />
+        <signal name="XLXN_89" />
+        <signal name="XLXN_91" />
+        <signal name="XLXN_92" />
+        <signal name="XLXN_93" />
+        <signal name="XLXN_94" />
+        <signal name="XLXN_95" />
+        <signal name="XLXN_96" />
+        <signal name="XLXN_97" />
+        <signal name="XLXN_98" />
+        <signal name="XLXN_99" />
+        <signal name="XLXN_100" />
+        <signal name="XLXN_135" />
+        <signal name="XLXN_164" />
+        <signal name="XLXN_189" />
+        <signal name="XLXN_198" />
+        <signal name="XLXN_205" />
+        <signal name="XLXN_206" />
+        <signal name="XLXN_207" />
+        <signal name="XLXN_208" />
+        <signal name="XLXN_210" />
+        <signal name="XLXN_211" />
+        <signal name="XLXN_213" />
+        <signal name="XLXN_218" />
         <signal name="OP(2:0)" />
         <signal name="OP(2)" />
-        <signal name="OP(0)" />
         <signal name="OP(1)" />
-        <signal name="XLXN_25" />
-        <signal name="XLXN_26" />
-        <signal name="XLXN_56" />
-        <signal name="REGAEN" />
-        <signal name="S0" />
-        <signal name="S1" />
-        <signal name="LOADPC" />
-        <signal name="STATEN" />
-        <signal name="REGBEN" />
+        <signal name="OP(0)" />
+        <signal name="XLXN_229" />
+        <signal name="XLXN_230" />
+        <signal name="XLXN_231" />
+        <signal name="REG_A_EN" />
+        <signal name="ALU_S0" />
+        <signal name="ALU_S1" />
+        <signal name="REG_B_EN" />
         <signal name="asdfcvzz" />
-        <signal name="MUXBS" />
-        <signal name="MUXAS" />
+        <signal name="asdafasdf" />
+        <signal name="MUX_B_SEL" />
+        <signal name="MUX_A_SEL" />
+        <signal name="PC_LOAD" />
+        <signal name="XLXN_241" />
+        <signal name="STATEN" />
+        <signal name="REG_STAT_EN" />
+        <signal name="XLXN_26" />
+        <port polarity="BiDirectional" name="NOT_OP1" />
+        <port polarity="BiDirectional" name="OP2" />
+        <port polarity="BiDirectional" name="OP0" />
+        <port polarity="BiDirectional" name="OP1" />
+        <port polarity="BiDirectional" name="NOT_OP0" />
+        <port polarity="BiDirectional" name="NOT_OP2" />
         <port polarity="Input" name="OP(2:0)" />
-        <port polarity="Output" name="REGAEN" />
-        <port polarity="Output" name="S0" />
-        <port polarity="Output" name="S1" />
-        <port polarity="Output" name="LOADPC" />
-        <port polarity="Output" name="STATEN" />
-        <port polarity="Output" name="REGBEN" />
-        <port polarity="Output" name="MUXBS" />
-        <port polarity="Output" name="MUXAS" />
+        <port polarity="Output" name="REG_A_EN" />
+        <port polarity="Output" name="ALU_S0" />
+        <port polarity="Output" name="ALU_S1" />
+        <port polarity="Output" name="REG_B_EN" />
+        <port polarity="Output" name="MUX_B_SEL" />
+        <port polarity="Output" name="MUX_A_SEL" />
+        <port polarity="Output" name="PC_LOAD" />
+        <port polarity="Output" name="REG_STAT_EN" />
         <blockdef name="and2">
             <timestamp>2000-1-1T10:10:10</timestamp>
             <line x2="64" y1="-64" y2="-64" x1="0" />
@@ -82,203 +132,277 @@
             <arc ex="144" ey="-176" sx="144" sy="-80" r="48" cx="144" cy="-128" />
             <line x2="64" y1="-64" y2="-192" x1="64" />
         </blockdef>
-        <block symbolname="inv" name="XLXI_2">
-            <blockpin signalname="OP(2)" name="I" />
-            <blockpin signalname="XLXN_56" name="O" />
+        <block symbolname="inv" name="XLXI_4">
+            <blockpin signalname="OP(1)" name="I" />
+            <blockpin signalname="NOT_OP1" name="O" />
+        </block>
+        <block symbolname="buf" name="XLXI_81">
+            <blockpin signalname="OP(1)" name="I" />
+            <blockpin signalname="OP1" name="O" />
         </block>
         <block symbolname="inv" name="XLXI_3">
             <blockpin signalname="OP(0)" name="I" />
-            <blockpin signalname="XLXN_25" name="O" />
+            <blockpin signalname="NOT_OP0" name="O" />
         </block>
-        <block symbolname="inv" name="XLXI_4">
-            <blockpin signalname="OP(1)" name="I" />
-            <blockpin signalname="asdfwqer" name="O" />
-        </block>
-        <block symbolname="buf" name="XLXI_7">
-            <blockpin signalname="OP(2)" name="I" />
-            <blockpin signalname="MUXAS" name="O" />
-        </block>
-        <block symbolname="buf" name="XLXI_8">
+        <block symbolname="buf" name="XLXI_80">
             <blockpin signalname="OP(0)" name="I" />
-            <blockpin signalname="S0" name="O" />
+            <blockpin signalname="OP0" name="O" />
         </block>
-        <block symbolname="buf" name="XLXI_9">
-            <blockpin signalname="asdfwqer" name="I" />
-            <blockpin signalname="MUXBS" name="O" />
+        <block symbolname="inv" name="XLXI_2">
+            <blockpin signalname="OP(2)" name="I" />
+            <blockpin signalname="NOT_OP2" name="O" />
         </block>
-        <block symbolname="buf" name="XLXI_10">
-            <blockpin signalname="OP(1)" name="I" />
-            <blockpin signalname="S1" name="O" />
-        </block>
-        <block symbolname="and2" name="XLXI_1">
-            <blockpin signalname="XLXN_25" name="I0" />
-            <blockpin signalname="OP(2)" name="I1" />
-            <blockpin signalname="asdafasdf" name="O" />
-        </block>
-        <block symbolname="and3" name="XLXI_15">
-            <blockpin signalname="asdfwqer" name="I0" />
-            <blockpin signalname="XLXN_25" name="I1" />
-            <blockpin signalname="XLXN_56" name="I2" />
-            <blockpin signalname="STATEN" name="O" />
-        </block>
-        <block symbolname="buf" name="XLXI_16">
-            <blockpin signalname="asdfcvzz" name="I" />
-            <blockpin signalname="REGAEN" name="O" />
-        </block>
-        <block symbolname="and2" name="XLXI_6">
-            <blockpin signalname="asdfwqer" name="I0" />
-            <blockpin signalname="OP(0)" name="I1" />
-            <blockpin signalname="XLXN_26" name="O" />
-        </block>
-        <block symbolname="or2" name="XLXI_5">
-            <blockpin signalname="XLXN_26" name="I0" />
-            <blockpin signalname="XLXN_56" name="I1" />
-            <blockpin signalname="asdfcvzz" name="O" />
+        <block symbolname="buf" name="XLXI_79">
+            <blockpin signalname="OP(2)" name="I" />
+            <blockpin signalname="OP2" name="O" />
         </block>
         <block symbolname="buf" name="XLXI_17">
             <blockpin signalname="asdafasdf" name="I" />
-            <blockpin signalname="REGBEN" name="O" />
+            <blockpin signalname="REG_B_EN" name="O" />
+        </block>
+        <block symbolname="buf" name="XLXI_16">
+            <blockpin signalname="asdfcvzz" name="I" />
+            <blockpin signalname="REG_A_EN" name="O" />
+        </block>
+        <block symbolname="buf" name="XLXI_9">
+            <blockpin signalname="NOT_OP1" name="I" />
+            <blockpin signalname="MUX_B_SEL" name="O" />
+        </block>
+        <block symbolname="buf" name="XLXI_7">
+            <blockpin signalname="OP2" name="I" />
+            <blockpin signalname="MUX_A_SEL" name="O" />
+        </block>
+        <block symbolname="buf" name="XLXI_8">
+            <blockpin signalname="OP0" name="I" />
+            <blockpin signalname="ALU_S0" name="O" />
+        </block>
+        <block symbolname="buf" name="XLXI_10">
+            <blockpin signalname="OP1" name="I" />
+            <blockpin signalname="ALU_S1" name="O" />
+        </block>
+        <block symbolname="buf" name="XLXI_24">
+            <blockpin signalname="asdfasdfzxcvzx" name="I" />
+            <blockpin signalname="PC_LOAD" name="O" />
+        </block>
+        <block symbolname="buf" name="XLXI_25">
+            <blockpin signalname="STATEN" name="I" />
+            <blockpin signalname="REG_STAT_EN" name="O" />
+        </block>
+        <block symbolname="or2" name="XLXI_5">
+            <blockpin signalname="XLXN_26" name="I0" />
+            <blockpin signalname="NOT_OP2" name="I1" />
+            <blockpin signalname="asdfcvzz" name="O" />
+        </block>
+        <block symbolname="and2" name="XLXI_6">
+            <blockpin signalname="NOT_OP1" name="I0" />
+            <blockpin signalname="OP0" name="I1" />
+            <blockpin signalname="XLXN_26" name="O" />
+        </block>
+        <block symbolname="and2" name="XLXI_1">
+            <blockpin signalname="NOT_OP0" name="I0" />
+            <blockpin signalname="OP2" name="I1" />
+            <blockpin signalname="asdafasdf" name="O" />
         </block>
         <block symbolname="and3" name="XLXI_23">
-            <blockpin signalname="OP(2)" name="I0" />
-            <blockpin signalname="OP(1)" name="I1" />
-            <blockpin signalname="OP(0)" name="I2" />
-            <blockpin signalname="LOADPC" name="O" />
+            <blockpin signalname="OP2" name="I0" />
+            <blockpin signalname="OP1" name="I1" />
+            <blockpin signalname="OP0" name="I2" />
+            <blockpin signalname="asdfasdfzxcvzx" name="O" />
+        </block>
+        <block symbolname="and3" name="XLXI_15">
+            <blockpin signalname="NOT_OP2" name="I0" />
+            <blockpin signalname="NOT_OP1" name="I1" />
+            <blockpin signalname="NOT_OP0" name="I2" />
+            <blockpin signalname="STATEN" name="O" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="3520" height="2720">
-        <branch name="OP(2:0)">
-            <wire x2="176" y1="496" y2="608" x1="176" />
-            <wire x2="176" y1="608" y2="736" x1="176" />
-            <wire x2="176" y1="736" y2="848" x1="176" />
-            <wire x2="176" y1="848" y2="880" x1="176" />
+        <branch name="NOT_OP1">
+            <wire x2="720" y1="448" y2="448" x1="704" />
         </branch>
-        <iomarker fontsize="28" x="176" y="496" name="OP(2:0)" orien="R270" />
-        <bustap x2="272" y1="608" y2="608" x1="176" />
-        <bustap x2="272" y1="848" y2="848" x1="176" />
-        <instance x="400" y="816" name="XLXI_3" orien="R0" />
-        <instance x="2080" y="1184" name="XLXI_8" orien="R0" />
-        <instance x="2080" y="1328" name="XLXI_10" orien="R0" />
-        <branch name="XLXN_26">
-            <wire x2="1328" y1="768" y2="768" x1="1312" />
-            <wire x2="1344" y1="720" y2="720" x1="1328" />
-            <wire x2="1328" y1="720" y2="768" x1="1328" />
+        <branch name="NOT_OP0">
+            <wire x2="720" y1="320" y2="320" x1="704" />
         </branch>
-        <bustap x2="272" y1="736" y2="736" x1="176" />
-        <branch name="asdfwqer">
-            <wire x2="992" y1="928" y2="928" x1="672" />
-            <wire x2="1024" y1="928" y2="928" x1="992" />
-            <wire x2="2080" y1="928" y2="928" x1="1024" />
-            <wire x2="1024" y1="928" y2="1776" x1="1024" />
-            <wire x2="1632" y1="1776" y2="1776" x1="1024" />
-            <wire x2="1056" y1="800" y2="800" x1="992" />
-            <wire x2="992" y1="800" y2="928" x1="992" />
+        <instance x="480" y="352" name="XLXI_3" orien="R0" />
+        <iomarker fontsize="28" x="720" y="320" name="NOT_OP0" orien="R0" />
+        <branch name="OP1">
+            <wire x2="720" y1="384" y2="384" x1="704" />
         </branch>
-        <instance x="2080" y="960" name="XLXI_9" orien="R0" />
+        <instance x="480" y="416" name="XLXI_81" orien="R0" />
+        <iomarker fontsize="28" x="720" y="384" name="OP1" orien="R0" />
+        <instance x="480" y="480" name="XLXI_4" orien="R0" />
+        <iomarker fontsize="28" x="720" y="448" name="NOT_OP1" orien="R0" />
+        <instance x="480" y="288" name="XLXI_80" orien="R0" />
+        <branch name="OP0">
+            <wire x2="720" y1="256" y2="256" x1="704" />
+        </branch>
+        <iomarker fontsize="28" x="720" y="256" name="OP0" orien="R0" />
+        <branch name="NOT_OP2">
+            <wire x2="720" y1="576" y2="576" x1="704" />
+        </branch>
+        <branch name="OP2">
+            <wire x2="720" y1="512" y2="512" x1="704" />
+        </branch>
+        <instance x="480" y="608" name="XLXI_2" orien="R0" />
+        <instance x="480" y="544" name="XLXI_79" orien="R0" />
+        <iomarker fontsize="28" x="720" y="512" name="OP2" orien="R0" />
+        <iomarker fontsize="28" x="720" y="576" name="NOT_OP2" orien="R0" />
+        <iomarker fontsize="28" x="240" y="192" name="OP(2:0)" orien="R270" />
+        <bustap x2="336" y1="512" y2="512" x1="240" />
         <branch name="OP(2)">
-            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="320" y="608" type="branch" />
-            <wire x2="256" y1="656" y2="1552" x1="256" />
-            <wire x2="1648" y1="1552" y2="1552" x1="256" />
-            <wire x2="368" y1="656" y2="656" x1="256" />
-            <wire x2="416" y1="656" y2="656" x1="368" />
-            <wire x2="320" y1="608" y2="608" x1="272" />
-            <wire x2="368" y1="608" y2="608" x1="320" />
-            <wire x2="368" y1="608" y2="656" x1="368" />
-            <wire x2="560" y1="608" y2="608" x1="368" />
-            <wire x2="864" y1="512" y2="512" x1="560" />
-            <wire x2="864" y1="512" y2="1024" x1="864" />
-            <wire x2="2080" y1="1024" y2="1024" x1="864" />
-            <wire x2="1248" y1="512" y2="512" x1="864" />
-            <wire x2="560" y1="512" y2="608" x1="560" />
+            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="408" y="512" type="branch" />
+            <wire x2="408" y1="512" y2="512" x1="336" />
+            <wire x2="448" y1="512" y2="512" x1="408" />
+            <wire x2="480" y1="512" y2="512" x1="448" />
+            <wire x2="448" y1="512" y2="576" x1="448" />
+            <wire x2="480" y1="576" y2="576" x1="448" />
         </branch>
-        <instance x="2080" y="1056" name="XLXI_7" orien="R0" />
-        <instance x="416" y="688" name="XLXI_2" orien="R0" />
-        <instance x="448" y="960" name="XLXI_4" orien="R0" />
-        <instance x="2112" y="720" name="XLXI_16" orien="R0" />
-        <branch name="REGAEN">
-            <wire x2="2368" y1="688" y2="688" x1="2336" />
-        </branch>
-        <iomarker fontsize="28" x="2368" y="688" name="REGAEN" orien="R0" />
-        <branch name="S0">
-            <wire x2="2336" y1="1152" y2="1152" x1="2304" />
-        </branch>
-        <branch name="S1">
-            <wire x2="2336" y1="1296" y2="1296" x1="2304" />
-        </branch>
-        <iomarker fontsize="28" x="2336" y="1296" name="S1" orien="R0" />
-        <branch name="LOADPC">
-            <wire x2="2352" y1="1488" y2="1488" x1="1904" />
-        </branch>
-        <branch name="STATEN">
-            <wire x2="2384" y1="1712" y2="1712" x1="1888" />
-        </branch>
-        <iomarker fontsize="28" x="2384" y="1712" name="STATEN" orien="R0" />
-        <instance x="1056" y="864" name="XLXI_6" orien="R0" />
-        <instance x="1344" y="784" name="XLXI_5" orien="R0" />
-        <branch name="OP(0)">
-            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="320" y="736" type="branch" />
-            <wire x2="320" y1="736" y2="736" x1="272" />
-            <wire x2="368" y1="736" y2="736" x1="320" />
-            <wire x2="368" y1="736" y2="784" x1="368" />
-            <wire x2="400" y1="784" y2="784" x1="368" />
-            <wire x2="784" y1="736" y2="736" x1="368" />
-            <wire x2="784" y1="736" y2="1152" x1="784" />
-            <wire x2="2080" y1="1152" y2="1152" x1="784" />
-            <wire x2="1056" y1="736" y2="736" x1="784" />
-            <wire x2="368" y1="784" y2="784" x1="272" />
-            <wire x2="272" y1="784" y2="848" x1="272" />
-            <wire x2="272" y1="848" y2="1424" x1="272" />
-            <wire x2="1648" y1="1424" y2="1424" x1="272" />
-        </branch>
-        <iomarker fontsize="28" x="2384" y="544" name="REGBEN" orien="R0" />
-        <branch name="REGBEN">
-            <wire x2="2384" y1="544" y2="544" x1="2352" />
-        </branch>
-        <instance x="2128" y="576" name="XLXI_17" orien="R0" />
-        <instance x="1248" y="640" name="XLXI_1" orien="R0" />
-        <branch name="XLXN_25">
-            <wire x2="912" y1="784" y2="784" x1="624" />
-            <wire x2="912" y1="784" y2="1712" x1="912" />
-            <wire x2="1632" y1="1712" y2="1712" x1="912" />
-            <wire x2="1248" y1="576" y2="576" x1="912" />
-            <wire x2="912" y1="576" y2="784" x1="912" />
-        </branch>
-        <iomarker fontsize="28" x="2336" y="1152" name="S0" orien="R0" />
-        <instance x="1632" y="1840" name="XLXI_15" orien="R0" />
-        <branch name="XLXN_56">
-            <wire x2="736" y1="656" y2="656" x1="640" />
-            <wire x2="1344" y1="656" y2="656" x1="736" />
-            <wire x2="736" y1="656" y2="1648" x1="736" />
-            <wire x2="1632" y1="1648" y2="1648" x1="736" />
-        </branch>
+        <bustap x2="336" y1="384" y2="384" x1="240" />
         <branch name="OP(1)">
-            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="320" y="848" type="branch" />
-            <wire x2="320" y1="848" y2="848" x1="272" />
-            <wire x2="368" y1="848" y2="848" x1="320" />
-            <wire x2="400" y1="848" y2="848" x1="368" />
-            <wire x2="400" y1="848" y2="928" x1="400" />
-            <wire x2="448" y1="928" y2="928" x1="400" />
-            <wire x2="368" y1="848" y2="1296" x1="368" />
-            <wire x2="2080" y1="1296" y2="1296" x1="368" />
-            <wire x2="368" y1="1296" y2="1488" x1="368" />
-            <wire x2="1648" y1="1488" y2="1488" x1="368" />
+            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="408" y="384" type="branch" />
+            <wire x2="408" y1="384" y2="384" x1="336" />
+            <wire x2="448" y1="384" y2="384" x1="408" />
+            <wire x2="480" y1="384" y2="384" x1="448" />
+            <wire x2="448" y1="384" y2="448" x1="448" />
+            <wire x2="480" y1="448" y2="448" x1="448" />
         </branch>
-        <instance x="1648" y="1616" name="XLXI_23" orien="R0" />
-        <iomarker fontsize="28" x="2352" y="1488" name="LOADPC" orien="R0" />
+        <bustap x2="336" y1="256" y2="256" x1="240" />
+        <branch name="OP(0)">
+            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="408" y="256" type="branch" />
+            <wire x2="408" y1="256" y2="256" x1="336" />
+            <wire x2="448" y1="256" y2="256" x1="408" />
+            <wire x2="480" y1="256" y2="256" x1="448" />
+            <wire x2="448" y1="256" y2="320" x1="448" />
+            <wire x2="480" y1="320" y2="320" x1="448" />
+        </branch>
+        <branch name="OP(2:0)">
+            <wire x2="240" y1="192" y2="256" x1="240" />
+            <wire x2="240" y1="256" y2="384" x1="240" />
+            <wire x2="240" y1="384" y2="512" x1="240" />
+        </branch>
+        <branch name="REG_A_EN">
+            <wire x2="1616" y1="816" y2="816" x1="1536" />
+        </branch>
+        <branch name="ALU_S0">
+            <wire x2="1616" y1="1008" y2="1008" x1="1536" />
+        </branch>
+        <branch name="ALU_S1">
+            <wire x2="1616" y1="1072" y2="1072" x1="1536" />
+        </branch>
+        <branch name="REG_B_EN">
+            <wire x2="1616" y1="752" y2="752" x1="1536" />
+        </branch>
         <branch name="asdfcvzz">
-            <wire x2="2112" y1="688" y2="688" x1="1600" />
+            <wire x2="1040" y1="896" y2="896" x1="1024" />
+            <wire x2="1040" y1="816" y2="896" x1="1040" />
+            <wire x2="1312" y1="816" y2="816" x1="1040" />
         </branch>
         <branch name="asdafasdf">
-            <wire x2="2128" y1="544" y2="544" x1="1504" />
+            <wire x2="1312" y1="752" y2="752" x1="736" />
         </branch>
-        <branch name="MUXBS">
-            <wire x2="2320" y1="928" y2="928" x1="2304" />
-            <wire x2="2368" y1="928" y2="928" x1="2320" />
+        <branch name="MUX_B_SEL">
+            <wire x2="1616" y1="880" y2="880" x1="1536" />
         </branch>
-        <branch name="MUXAS">
-            <wire x2="2368" y1="1024" y2="1024" x1="2304" />
+        <branch name="MUX_A_SEL">
+            <wire x2="1616" y1="944" y2="944" x1="1536" />
         </branch>
-        <iomarker fontsize="28" x="2368" y="1024" name="MUXAS" orien="R0" />
-        <iomarker fontsize="28" x="2368" y="928" name="MUXBS" orien="R0" />
+        <branch name="PC_LOAD">
+            <wire x2="1616" y1="1136" y2="1136" x1="1536" />
+        </branch>
+        <branch name="STATEN">
+            <wire x2="1296" y1="1328" y2="1328" x1="736" />
+            <wire x2="1312" y1="1200" y2="1200" x1="1296" />
+            <wire x2="1296" y1="1200" y2="1328" x1="1296" />
+        </branch>
+        <branch name="REG_STAT_EN">
+            <wire x2="1616" y1="1200" y2="1200" x1="1536" />
+        </branch>
+        <branch name="OP2">
+            <wire x2="1312" y1="944" y2="944" x1="1232" />
+        </branch>
+        <branch name="OP0">
+            <wire x2="1312" y1="1008" y2="1008" x1="1232" />
+        </branch>
+        <branch name="OP1">
+            <wire x2="1312" y1="1072" y2="1072" x1="1232" />
+        </branch>
+        <branch name="asdfasdfzxcvzx">
+            <wire x2="1312" y1="1136" y2="1136" x1="736" />
+        </branch>
+        <branch name="NOT_OP1">
+            <wire x2="1312" y1="880" y2="880" x1="1232" />
+        </branch>
+        <branch name="OP2">
+            <wire x2="480" y1="720" y2="720" x1="464" />
+        </branch>
+        <branch name="NOT_OP0">
+            <wire x2="480" y1="784" y2="784" x1="464" />
+        </branch>
+        <branch name="XLXN_26">
+            <wire x2="768" y1="928" y2="928" x1="736" />
+        </branch>
+        <branch name="NOT_OP2">
+            <wire x2="768" y1="864" y2="864" x1="464" />
+        </branch>
+        <branch name="OP0">
+            <wire x2="480" y1="896" y2="896" x1="464" />
+        </branch>
+        <branch name="NOT_OP1">
+            <wire x2="480" y1="960" y2="960" x1="464" />
+        </branch>
+        <branch name="OP0">
+            <wire x2="480" y1="1072" y2="1072" x1="416" />
+        </branch>
+        <branch name="OP1">
+            <wire x2="480" y1="1136" y2="1136" x1="416" />
+        </branch>
+        <branch name="OP2">
+            <wire x2="480" y1="1200" y2="1200" x1="416" />
+        </branch>
+        <branch name="NOT_OP0">
+            <wire x2="480" y1="1264" y2="1264" x1="416" />
+        </branch>
+        <branch name="NOT_OP2">
+            <wire x2="480" y1="1392" y2="1392" x1="416" />
+        </branch>
+        <branch name="NOT_OP1">
+            <wire x2="480" y1="1328" y2="1328" x1="416" />
+        </branch>
+        <instance x="1312" y="784" name="XLXI_17" orien="R0" />
+        <instance x="1312" y="848" name="XLXI_16" orien="R0" />
+        <instance x="1312" y="912" name="XLXI_9" orien="R0" />
+        <instance x="1312" y="976" name="XLXI_7" orien="R0" />
+        <instance x="1312" y="1040" name="XLXI_8" orien="R0" />
+        <instance x="1312" y="1104" name="XLXI_10" orien="R0" />
+        <instance x="1312" y="1168" name="XLXI_24" orien="R0" />
+        <instance x="1312" y="1232" name="XLXI_25" orien="R0" />
+        <instance x="768" y="992" name="XLXI_5" orien="R0" />
+        <instance x="480" y="1024" name="XLXI_6" orien="R0" />
+        <instance x="480" y="848" name="XLXI_1" orien="R0" />
+        <instance x="480" y="1264" name="XLXI_23" orien="R0" />
+        <instance x="480" y="1456" name="XLXI_15" orien="R0" />
+        <iomarker fontsize="28" x="1616" y="752" name="REG_B_EN" orien="R0" />
+        <iomarker fontsize="28" x="1616" y="816" name="REG_A_EN" orien="R0" />
+        <iomarker fontsize="28" x="1616" y="880" name="MUX_B_SEL" orien="R0" />
+        <iomarker fontsize="28" x="1616" y="944" name="MUX_A_SEL" orien="R0" />
+        <iomarker fontsize="28" x="1616" y="1008" name="ALU_S0" orien="R0" />
+        <iomarker fontsize="28" x="1616" y="1072" name="ALU_S1" orien="R0" />
+        <iomarker fontsize="28" x="1616" y="1136" name="PC_LOAD" orien="R0" />
+        <iomarker fontsize="28" x="1616" y="1200" name="REG_STAT_EN" orien="R0" />
+        <iomarker fontsize="28" x="1232" y="944" name="OP2" orien="R180" />
+        <iomarker fontsize="28" x="1232" y="1008" name="OP0" orien="R180" />
+        <iomarker fontsize="28" x="1232" y="1072" name="OP1" orien="R180" />
+        <iomarker fontsize="28" x="1232" y="880" name="NOT_OP1" orien="R180" />
+        <iomarker fontsize="28" x="464" y="864" name="NOT_OP2" orien="R180" />
+        <iomarker fontsize="28" x="464" y="896" name="OP0" orien="R180" />
+        <iomarker fontsize="28" x="464" y="960" name="NOT_OP1" orien="R180" />
+        <iomarker fontsize="28" x="464" y="784" name="NOT_OP0" orien="R180" />
+        <iomarker fontsize="28" x="464" y="720" name="OP2" orien="R180" />
+        <iomarker fontsize="28" x="416" y="1200" name="OP2" orien="R180" />
+        <iomarker fontsize="28" x="416" y="1136" name="OP1" orien="R180" />
+        <iomarker fontsize="28" x="416" y="1072" name="OP0" orien="R180" />
+        <iomarker fontsize="28" x="416" y="1264" name="NOT_OP0" orien="R180" />
+        <iomarker fontsize="28" x="416" y="1392" name="NOT_OP2" orien="R180" />
+        <iomarker fontsize="28" x="416" y="1328" name="NOT_OP1" orien="R180" />
     </sheet>
 </drawing>
