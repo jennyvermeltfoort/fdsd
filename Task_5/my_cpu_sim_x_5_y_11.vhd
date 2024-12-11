@@ -103,7 +103,7 @@ architecture BEHAVIORAL of my_rom_MUSER_my_cpu is
    end component;
    attribute BOX_TYPE of GND : component is "BLACK_BOX";
    
-   attribute INIT of ROM0 : label is "00000525";
+   attribute INIT of ROM0 : label is "00000425";
    attribute INIT of ROM1 : label is "00000001";
    attribute INIT of ROM2 : label is "00000120";
    attribute INIT of ROM3 : label is "00000101";
@@ -113,7 +113,7 @@ architecture BEHAVIORAL of my_rom_MUSER_my_cpu is
 begin
    ROM0 : ROM32X1
    -- synopsys translate_off
-   generic map( INIT => x"00000525")
+   generic map( INIT => x"00000425")
    -- synopsys translate_on
       port map (A0=>D(0),
                 A1=>D(1),

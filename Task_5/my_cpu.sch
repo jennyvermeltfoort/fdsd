@@ -288,12 +288,10 @@
             <wire x2="3072" y1="912" y2="912" x1="2976" />
         </branch>
         <branch name="ALU_RES(3:0)">
-            <wire x2="304" y1="1616" y2="1616" x1="288" />
-            <wire x2="320" y1="1616" y2="1616" x1="304" />
+            <wire x2="320" y1="1616" y2="1616" x1="288" />
         </branch>
         <branch name="MUX_A_SEL">
-            <wire x2="304" y1="1680" y2="1680" x1="288" />
-            <wire x2="320" y1="1680" y2="1680" x1="304" />
+            <wire x2="320" y1="1680" y2="1680" x1="288" />
         </branch>
         <instance x="1504" y="1200" name="XLXI_3" orien="R0">
         </instance>
@@ -536,8 +534,7 @@
             <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="1104" y="1040" type="branch" />
             <wire x2="320" y1="816" y2="816" x1="80" />
             <wire x2="80" y1="816" y2="1040" x1="80" />
-            <wire x2="752" y1="1040" y2="1040" x1="80" />
-            <wire x2="1104" y1="1040" y2="1040" x1="752" />
+            <wire x2="1104" y1="1040" y2="1040" x1="80" />
             <wire x2="1344" y1="1040" y2="1040" x1="1104" />
             <wire x2="1344" y1="1040" y2="1360" x1="1344" />
             <wire x2="1504" y1="1040" y2="1040" x1="1344" />
@@ -556,9 +553,9 @@
             <wire x2="1920" y1="2000" y2="2000" x1="1440" />
         </branch>
         <branch name="S1">
-            <wire x2="1504" y1="1104" y2="1104" x1="1424" />
-            <wire x2="1424" y1="1104" y2="1936" x1="1424" />
-            <wire x2="1920" y1="1936" y2="1936" x1="1424" />
+            <wire x2="1408" y1="1104" y2="1936" x1="1408" />
+            <wire x2="1920" y1="1936" y2="1936" x1="1408" />
+            <wire x2="1504" y1="1104" y2="1104" x1="1408" />
         </branch>
         <branch name="ROM_OUT(6:0)">
             <attrtext style="alignment:SOFT-TVCENTER;fontsize:28;fontname:Arial" attrname="Name" x="960" y="1936" type="branch" />

@@ -3,7 +3,7 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="/home/jenn/fdsd/Task_5/my_cpu_sim_x_13_y_4_tb_isim_beh.wdb" id="1" type="auto">
+      <db_ref path="/vol/home/s3787494/projects/fdsd/Task_5/my_cpu_sim_x_13_y_4_tb_isim_beh.wdb" id="1" type="auto">
          <top_modules>
             <top_module name="my_cpu_sim_x_13_y_4_tb" />
             <top_module name="numeric_std" />
@@ -59,25 +59,9 @@
       <obj_property name="ElementShortName">mux_d1[3:0]</obj_property>
       <obj_property name="ObjectShortName">mux_d1[3:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/opcode" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">opcode[2:0]</obj_property>
-      <obj_property name="ObjectShortName">opcode[2:0]</obj_property>
-   </wvobject>
    <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/pco" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">pco[3:0]</obj_property>
       <obj_property name="ObjectShortName">pco[3:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/reg_a_out" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">reg_a_out[3:0]</obj_property>
-      <obj_property name="ObjectShortName">reg_a_out[3:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/reg_b_out" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">reg_b_out[3:0]</obj_property>
-      <obj_property name="ObjectShortName">reg_b_out[3:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/rom_out" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">rom_out[6:0]</obj_property>
-      <obj_property name="ObjectShortName">rom_out[6:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/rom_pc" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">rom_pc[3:0]</obj_property>
@@ -106,5 +90,21 @@
    <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/xlxn_372" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">xlxn_372</obj_property>
       <obj_property name="ObjectShortName">xlxn_372</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/rom_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rom_out[6:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_out[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/reg_a_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_a_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_a_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/reg_b_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_b_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_b_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my_cpu_sim_x_13_y_4_tb/UUT/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[2:0]</obj_property>
    </wvobject>
 </wave_config>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-12-07T16:21:56</DateModified>
+  <DateModified>2024-12-11T13:45:34</DateModified>
   <ModuleName>my_cpu</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/jenn/fdsd/Task_5/iseconfig/my_cpu.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/jenn/fdsd/Task_5/</ImplementationReportsDirectory>
+  <SavedFilePath>/vol/home/s3787494/projects/fdsd/Task_5/iseconfig/my_cpu.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/vol/home/s3787494/projects/fdsd/Task_5/</ImplementationReportsDirectory>
   <DateInitialized>2024-12-05T12:44:00</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
